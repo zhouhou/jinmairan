@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.myindex-container {
+    background-color: #ffffff;
+    height: 1250px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.myindex-header {
+    width: 900px;
+    height: 250px;
+    margin-left: 40px;
+    padding-top: 35px;
+}
+
+
+/* 头像边框 */
+
+.myindex-header-pic {
+    display: inline-block;
+    position: relative;
+    border: 1px solid #d5d5d5;
+    height: 196px;
+    width: 196px;
+}
+
+
+/* 头像 */
+
+.myindex-header-pic img {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+
+/* 更改头像 */
+
+.myindex-header-span1 {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+    background-color: #726f6f;
+    height: 26px;
+    width: 188px;
+    display: none;
+    position: absolute;
+    top: 168px;
+    left: 4px;
+    cursor: pointer;
+}
+
+.myindex-header-pic:hover span {
+    display: block;
+}
+
+
+/* 右部资料区 */
+
+.myindex-header-right {
+    float: right;
+    position: relative;
+    height: 200px;
+    width: 670px;
+    margin-left: 30px;
+}
+
+
+/* 昵称 */
+
+.myindex-header-span2 {
+    position: absolute;
+    top: 15px;
+    font-size: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+
+
+/* 等级和性别图标 */
+
+.myindex-header-right img {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+
+
+/* 编辑资料 */
+
+#myindex-right-input {
+    position: absolute;
+    right: 0;
+    width: 112px;
+    height: 35px;
+    line-height: 31px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #ededed;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#myindex-right-input:hover {
+    background-color: rgb(248, 243, 243)
+}
+
+
+/* 资料下方 */
+
+.myindex-header-right2 {
+    position: relative;
+    border-top: 1px solid #eee;
+    height: 190px;
+    margin-top: 60px;
+}
+
+
+/* 关注 粉丝 动态 */
+
+.myindex-header-right2 ul {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    list-style: none;
+    margin-top: 9px;
+}
+
+
+/* 三个li */
+
+.myindex-header-right2>ul li {
+    position: relative;
+    flex: 1;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+/* 资料的字体 */
+
+.myindex-header-span3 {
+    font-size: 24px;
+    position: absolute;
+    left: 30px;
+}
+
+.myindex-header-span4 {
+    color: #666;
+    top: 30px;
+    left: 25px;
+    font-size: 12px;
+    position: absolute;
+}
+
+
+/* 右边边框的横隔线 */
+
+.myindex-header-li {
+    border-right: 1px solid #eee;
+}
+
+
+/* 个人资料 */
+
+.myindex-header-span5,
+.myindex-header-span6,
+.myindex-header-span7,
+.myindex-header-span8 {
+    color: #666;
+    margin-top: 9px;
+    font-size: 12px;
+    display: block;
+}
+
+
+/* 个人资料 */
+
+.myindex-header-span7 {
+    position: absolute;
+    top: 85px;
+    left: 140px;
+}
+
+
+/* 微博 图片 */
+
+.myindex-header-right2 img {
+    position: absolute;
+    top: 117px;
+    left: 60px;
+}
+
+.myindex-mid {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: 50px;
+}
+
+
+/* 听歌排行 */
+
+.myindex-mid-span1 {
+    float: left;
+    font-size: 20px;
+    color: #666;
+}
+
+.myindex-mid-span2 {
+    float: left;
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+.myindex-mid-span4 {
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+
+.myindex-mid-span3 {
+    padding-right: 15px;
+    position: absolute;
+    float: right;
+    font-size: 12px;
+    color: #333;
+    right: 60px;
+    border-right: 1px solid #666;
+}
+
+.myindex-bottom {
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+/* 听歌列表 */
+
+.myindex-bottom ul {
+    height: 500px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.myindex-bottom li {
+    height: 40px;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    flex: 1;
+}
+
+.myindex-bottom>ul li:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+
+/* 上边框 */
+
+.myindex-bottom-li {
+    border-top: 2px solid #c20c0c;
+    position: relative;
+}
+
+.myindex-bottom li {
+    position: relative;
+}
+
+.myindex-bottom li :first-child {
+    font-family: Arial;
+    position: absolute;
+    font-size: 22px;
+    color: #666;
+    top: 13px;
+    left: 20px;
+}
+
+
+/* 伪类 */
+
+.myindex-bottom li img {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.myindex-bottom li :nth-child(3) {
+    font-family: Arial;
+    position: absolute;
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+    top: 17px;
+    left: 90px;
+}
+
+.myindex-bottom li :nth-child(4) {
+    font-family: Arial;
+    position: absolute;
+    font-size: 12px;
+    color: #666;
+    top: 17px;
+    left: 160px;
+}
+
+.myindex-bottom-li1 {
+    width: 350px;
+    height: 50px;
+}
+
+.myindex-bottom-li2 {
+    width: 315px;
+    height: 50px;
+    margin-right: 35px;
+}
+
+.myindex-bottom li span:nth-child(5) {
+    opacity: 0.6;
+    float: right;
+    font-family: Arial;
+    background-color: #edf7fe;
+    line-height: 48px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.myindex-bottom-li3 {
+    width: 280px;
+    height: 50px;
+    margin-right: 70px;
+}
+
+.myindex-bottom-li4 {
+    width: 245px;
+    height: 50px;
+    margin-right: 105px;
+}
+
+.myindex-bottom-li5 {
+    width: 210px;
+    height: 50px;
+    margin-right: 140px;
+}
+
+.myindex-bottom-li6 {
+    width: 175px;
+    height: 50px;
+    margin-right: 175px;
+}
+
+.myindex-bottom-li7 {
+    width: 140px;
+    height: 50px;
+    margin-right: 210px;
+}
+
+.myindex-bottom-li8 {
+    width: 105px;
+    height: 50px;
+    margin-right: 245px;
+    ;
+}
+
+.myindex-bottom-li9 {
+    width: 70px;
+    height: 50px;
+    margin-right: 280px;
+}
+
+.myindex-bottom-li11 {
+    width: 35px;
+    height: 50px;
+    margin-right: 315px;
+}
+
+.myindex-bottom-li10 {
+    position: absolute;
+    left: 16px !important;
+}
+
+
+/* 查看更多 */
+
+.myindex-bottom-span {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+
+
+/* 移入添加下划线 */
+
+.myindex-bottom-span:hover {
+    text-decoration: underline;
+}
+
+.myindex-bottom-span2 {
+    margin-top: 90px;
+    float: left;
+    font-size: 20px;
+}
+
+
+/*
+我创建的歌单图片 */
+
+#myindex-foot-pic3 {
+    position: relative;
+    top: 90px;
+    right: 33px;
+}
+
+
+/* 底部 */
+
+.myindex-foot {
+    position: relative;
+    height: 200px;
+    width: 900px;
+    margin: 40px auto;
+    border-top: 2px solid #c20c0c;
+}
+
+
+/* 底部大图 */
+
+#myindex-foot-pic1 {
+    position: absolute;
+    top: 30px;
+}
+
+
+/* 底部小图 */
+
+#myindex-foot-pic2 {
+    position: absolute;
+    top: 143px;
+}
+
+
+/* 底部字体 */
+
+.myindex-foot span {
+    position: absolute;
+    top: 177px;
+    left: 10px;
+}
