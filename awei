@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>课程表</title>
+	</head>
+	<body>
+		<table border="1px" style="text-align: center;">
+			<tr>
+				<td>项目</td>
+				<td colspan="5">上课</td>
+				<td colspan="2">休息</td>
+				</tr>
+			<tr>
+					<td>星期</td>
+					<td>一</td>
+					<td>二</td>
+					<td>三</td>
+					<td>四</td>
+					<td>五</td>
+					<td>六</td>
+					<td>日</td>
+					</tr>
+					<tr>
+						<td rowspan="4">上午</td>
+						<td>语</td>
+		<td>数</td>
+		<td>英</td>
+		<td>英</td>
+		<td>物</td>
+		<td>计</td>
+		<td rowspan="4">休</td></tr>
+		<tr>
+			<td>数</td>
+			<td>语</td>
+			<td>物</td>
+			<td>语</td>
+			<td>数</td>
+			<td>体</td>
+			</tr>
+			<tr>
+				<td>语</td>
+				<td>语</td>
+				<td>语</td>
+				<td>语</td>
+				<td>语</td>
+				<td>语</td>
+				</tr>
+				<tr>
+					<td>语</td>
+					<td>语</td>
+					<td>数</td>
+					<td>语</td>
+					<td>英</td>
+					<td>语</td>
+					</tr>
+					<tr>
+						<td rowspan="2">下午</td>
+						<td>数</td>
+						<td>语</td>
+						<td>物</td>
+						<td>语</td>
+						<td>数</td>
+						<td>体</td>
+						<td rowspan="2">休</td>
+						</tr>
+						<tr>
+							<td>语</td>
+							<td>语</td>
+							<td>语</td>
+							<td>语</td>
+							<td>语</td>
+							<td>语</td>
+								</tr>
+							
+				
+
+			
+		</table>
+	</body>
+</html>
