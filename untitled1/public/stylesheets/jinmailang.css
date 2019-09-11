@@ -1,0 +1,265 @@
+.top1{
+    height: 41px;
+    background: #00008B;
+    line-height: 41px;
+}
+.xin{
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+}
+.top .call{
+    float: left;
+    background: url(../png/call.png) no-repeat left 14px;
+    display: inline-block;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+ul.first{
+    float: right;
+    margin: auto 20px;
+}
+.first li{
+    display: inline;
+    text-align: center;
+    font-size: 12px;
+    line-height: 41px;
+    padding-right: 20px;
+}
+.first li:hover,.first li:hover a{
+    color: gray;
+}
+.first a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.top2{
+    margin: 0px auto;
+    height: 100px;
+    width: 1170px;
+    padding-top: 10px;
+}
+.tu{
+    float: left;
+    margin-top: 0px;
+}
+.top2>div .nav{
+    float: left;
+    margin-left: 167px;
+    position: relative;
+    display: inline-block;
+
+}
+.top2>div.nav ul.second{
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    font-size: 20px;
+    color: gray;
+    margin-right: -15px;
+    margin-top: 24px;
+    overflow: inherit;
+    display: inline-block;
+}
+.second li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 60px;
+    padding: 0 20px;
+    font-size: 18px;
+    position: relative;
+    padding-left: 30px;
+}
+.second li:hover{
+    color: darkblue;
+}
+.sousuo{
+    float: right;
+    right: 100px;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: -50px;
+    line-height: 30px;
+    border: 1px solid gray;
+}
+.yincang{
+    border:white;
+}
+.third{
+    width: 545px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+ul.four{
+    line-height: 20px;
+    list-style: none;
+    display: none;
+}
+.four li{
+    font-size: 15px;
+    margin-right: -50px;
+    position: relative;
+}
+.second .third:hover .four{
+    text-align: center;
+    background-color: white;
+    display: block;
+}
+.mid{
+    position: relative;
+    margin: 0px auto 15px;
+    width: 1170px;
+    z-index:9;
+}
+.title{
+    display: inline-block;
+}
+.zhong{
+    color: cornflowerblue;
+    margin-left: 10px;
+    border-left: 2px solid cornflowerblue;
+    padding-left: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.mid .you{
+    display: inline-block;
+    font-size: 13px;
+    padding-top: 30px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    margin-top: 0px;
+}
+span:hover{
+    color: #6495ED;
+}
+.mid1{
+    display: block;
+    width: 4744px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 10px;
+    animation: mid1 16s infinite;
+}
+@keyframes mid1{
+    0%{
+        margin-left: 0;
+    }
+    33%{
+        margin-left: -1170px;
+    }
+    66%{
+        margin-left: -2340px;
+    }
+    /* 75%{
+        margin-left: -3510px;
+    } */
+    100%{
+        margin-left: -3510px;
+    }
+}
+.mid1 img{
+    width: 1170px;
+    height: 300px;
+}
+.over{
+    width: 1170px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.pailie{
+    margin: 0 auto 15px;
+    width: 1170px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+.pailie tr td img{
+    display: inline-block;
+    width: 250px;
+    height: 230px;
+}
+
+.pailie .jiege{
+    text-align: center;
+}
+.pailie .jiege:hover{
+    color: #6495ED;
+}
+.last{
+    background-color: #00008B;
+    width: 100%;
+    color: white;
+    height: 460px;
+}
+.last1{
+    width: 1170px;
+    position: relative;
+    margin: 0 auto;
+}
+.last2{
+    width: 225px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.last2 li:hover{
+    color: brown;
+}
+.last3{
+    text-align: center;
+    margin-top: 180px;
+}
+.last3:hover{
+    color: #A52A2A;
+}
+.last4{
+    text-align: center;
+}
+.last4:hover{
+    color: #A52A2A;
+}
+.ybl_div{
+    width: 84px;
+    position: fixed;
+    right: 120px;
+    top: 100px;
+    margin: 100px auto 10px;
+}
+ul.ybl{
+    list-style: none;
+    margin-inline-start: 0px;
+    padding-inline-start: 0px;
+    position: fixed;
+    right: 0px;
+}
+.ybl li{
+    width: 84px;
+    height:100px;
+    border: 0.5px solid gray;
+    text-align: center;
+    display: block;
+}
+.ybl span{
+    font-size: 15px;
+    display: block;
+}
+.ybl li:hover{
+    color: #ff6700;
+}
+.dianji{
+    display: none;
+}
+.ybl li:hover .img_show{
+    display: none;
+}
+.ybl li:hover .dianji{
+    display: inline;
+}
