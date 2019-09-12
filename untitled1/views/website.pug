@@ -1,0 +1,186 @@
+doctype transitional
+head
+    title web&#x7F51;&#x7AD9;-by&#x9ECE;&#x548F;&#x6587;
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    link(href='../stylesheets/website.css', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='js/easySlider1.5.js')
+    script(type='text/javascript', charset='utf-8').
+        // <![CDATA[
+        $(document).ready(function(){
+            $("#slider").easySlider({
+                controlsBefore:	'<p id="controls">',
+                controlsAfter:	'</p>',
+                auto: true,
+                continuous: true
+            });
+        });
+        // ]]>
+    style(type='text/css').
+        .gallery { float:left; width:505px; height:279px; margin:12px 0 0 2px; }
+        #slider { margin:0; padding:0; list-style:none; }
+        #slider ul,
+        #slider li { margin:0; padding:0; list-style:none; }
+        /*
+        define width and height of list item (slide)
+        entire slider area will adjust according to the parameters provided here
+        */
+        #slider li { width:505px; height:279px; overflow:hidden; }
+        p#controls { margin:0; position:relative; }
+        #prevBtn { display:block; margin:0; overflow:hidden; width:20px; height:42px; position:absolute; left:-20px; top:-125px; }
+        #nextBtn { display:block; margin:0; overflow:hidden; width:20px; height:42px; position:absolute; left: 505px; top:-125px; }
+        #prevBtn a { display:block; width:20px; height:42px; background:url(images/l_arrow.gif) no-repeat 0 0; }
+        #nextBtn a { display:block; width:20px; height:42px; background:url(images/r_arrow.gif) no-repeat 0 0; }
+.main
+    .header
+        .block_header
+            .search
+                form#form1(name='form1', method='post', action='')
+                    label
+                        span
+                            input#textfield.keywords(name='q', type='text', maxlength='50', value='Search...')
+                        input.button(name='b', type='image', src='images/search.gif')
+            .header_text
+                a(href='index.html') Email
+                |  |
+                a(href='index.html') Client Login
+            .clr
+            .logo
+                a(href='index.html')
+                    img(src='images/logo.gif', width='297', height='81', border='0', alt='logo')
+            .menu
+                ul
+                    li
+                        a.active(href='index.html')
+                            span &#x4E3B;&#x9875;
+                    li
+                        a(href='work.html')
+                            span &#x5DE5;&#x4F5C;&#x5185;&#x5BB9;
+                    li
+                        a(href='about.html')
+                            span &#x5173;&#x4E8E;&#x6211;&#x4EEC;
+                    li
+                        a(href='services.html')
+                            span &#x6211;&#x4EEC;&#x7684;&#x670D;&#x52A1;
+                    li
+                        a(href='contact.html')
+                            span &#x514D;&#x8D39;&#x54A8;&#x8BE2;
+            .clr
+        .clr
+    .clr
+    .header_text_java_bg
+        .header_text_java
+            .div
+                .left1
+                    img(src='images/slider_img_1.jpg', alt='picture', width='77', height='77')
+                    h2 &#x8BBE;&#x8BA1;&#x7F51;&#x9875;
+                    p
+                        strong &#x6211;&#x53F8;&#x53EF;&#x4EE5;&#x8BBE;&#x8BA1;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x98CE;&#x683C;&#x7684;&#x7F51;&#x9875;
+                        br
+                        |             &#x5E76;&#x4E14;&#x5B9E;&#x73B0;&#x4F60;&#x60F3;&#x8981;&#x7684;&#x529F;&#x80FD; [...]
+                    p &nbsp;
+                    img(src='images/slider_img_2.jpg', alt='picture', width='77', height='77')
+                    h2 &#x6211;&#x4EEC;&#x7684;&#x670D;&#x52A1;
+                    p
+                        strong &#x53EA;&#x8981;&#x4F60;&#x7ED9;&#x6211;&#x4EEC;&#x8DB3;&#x591F;&#x7684;&#x94B1;
+                        br
+                        |             &#x6211;&#x4EEC;&#x5C31;&#x80FD;&#x4E3A;&#x4F60;&#x8BBE;&#x8BA1;&#x6700;&#x597D;&#x7684;&#x7F51;&#x9875;&#xFF0C;&#x63D0;&#x4F9B;&#x6700;&#x597D;&#x7684;&#x670D;&#x52A1; [...]
+                .gallery
+                    #slider
+                        ul
+                            li
+                                img(src='images/simple-text_img_1.jpg', alt='screen 1', width='505', height='279', border='0')
+
+                .clr
+        .clr
+    .twitter_blog
+        .twitter
+            h2 &nbsp;
+            .bird
+                img(src='images/twitter.gif', alt='picture', width='75', height='80')
+                p
+                    br
+                    a(href='https://www.haotui.com.cn/') &#x6211;&#x4EEC;&#x7684;&#x65D7;&#x4E0B;&#x516C;&#x53F8;
+    .clr
+    .body
+        .body_resize
+            .right
+                h2 &#x6B22;&#x8FCE;&#x6765;&#x5230;&#x6211;&#x4EEC;&#x7684;&#x7F51;&#x7AD9;
+                img(src='images/img_1.jpg', alt='picture', width='164', height='164')
+                p.grey &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E3A;&#x60A8;&#x63D0;&#x4F9B;&#x4E00;&#x4EFD;&#x91CF;&#x8EAB;&#x5B9A;&#x5236;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;
+                p &#x4E3A;&#x60A8;&#x5E26;&#x6765;&#x65E0;&#x9650;&#x7684;&#x6D41;&#x91CF;&#x63D0;&#x5347;&#xFF0C;&#x5982;&#x4E0D;&#x6EE1;&#x610F;&#xFF0C;&#x53EF;&#x65E0;&#x6548;&#x9000;&#x6B3E;
+                p
+                    a(href='work.html')
+                        img(src='images/more_news.gif', alt='picture', width='66', height='23', border='0')
+                p.grey &nbsp;
+            .left
+                h2 &#x6210;&#x529F;&#x6848;&#x4F8B;
+                p
+                    strong
+                        em 5th / April / 2019
+                p &#x534E;&#x8BAF;&#x65B9;&#x821F;&#x96C6;&#x56E2;&#x7F51;&#x7AD9;
+                p
+                    strong
+                        em 26th / April / 2019
+                p &#x98CE;&#x5E06;&#x516C;&#x53F8;&#x54C1;&#x724C;&#x7F51;&#x7AD9;
+                p
+                    a(href='http://www.huaxunchina.cn/')
+                        img(src='images/more_news.gif', alt='picture', width='66', height='23', border='0')
+            .clr
+    .FBG
+        .FBG_resize
+            .blooga
+                h2 &#x4E3A;&#x4EC0;&#x4E48;&#x9009;&#x62E9;&#x6211;&#x4EEC;&#xFF1F;
+                img(src='images/img_2.jpg', alt='picture', width='61', height='61')
+                p
+                    strong &#x6211;&#x53F8;&#x53EF;&#x4EE5;&#x8BBE;&#x8BA1;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x98CE;&#x683C;&#x7684;&#x7F51;&#x9875;
+                    br
+                .bg
+                img(src='images/img_3.jpg', alt='picture', width='61', height='61')
+                p
+                    strong &#x4E3A;&#x60A8;&#x63D0;&#x4F9B;&#x4E00;&#x7AD9;&#x5F0F;&#x4E92;&#x8054;&#x7F51;&#x670D;&#x52A1;
+                    br
+                .bg
+                img(src='images/img_4.jpg', alt='picture', width='61', height='61')
+                p
+                    strong &#x4E13;&#x4E1A;&#x4EA7;&#x54C1;&#x795D;&#x60A8;&#x8F7B;&#x677E;&#x83B7;&#x53D6;&#x5BA2;&#x6237;
+                    br
+            .blooga
+                h2 &#x6211;&#x4EEC;&#x7684;&#x4F18;&#x52BF;
+                .clients
+                    p(style='padding:15px 0 0 15px;') &#x667A;&#x80FD;&#x65F6;&#x4EE3;,&#x4E00;&#x4E2A;&#x54CD;&#x5E94;&#x5F0F;&#x600E;&#x4E48;&#x7528;&#x90FD;&#x5408;&#x9002;&#x3010;&#x7535;&#x8111;&#x3001;&#x5E73;&#x677F;&#x3001;&#x624B;&#x673A;&#x3011;&#x5168;&#x9762;&#x7EFD;&#x653E;,&#x8BA9;&#x7F51;&#x7AD9;&#x5728;&#x4EFB;&#x4F55;&#x8BBE;&#x5907;&#x4E0A;&#x663E;&#x5F97;&#x7B80;&#x5355;&#x81EA;&#x7136;,&#x7528;&#x8D77;&#x6765;&#x8F7B;&#x677E;&#x81EA;&#x5982;,&#x600E;&#x4E48;&#x770B;&#x90FD;&#x89C9;&#x5F97;&#x8212;&#x670D;,&#x5999;&#x4E0D;&#x53EF;&#x8A00;&#x3002;
+                    p
+                        strong(style='float:right;') &#x54CD;&#x5E94;&#x5F0F;&#x8BBE;&#x8BA1;
+                    p &nbsp;
+                .clients
+                    p(style='padding:15px 0 0 15px;') &#x8BBF;&#x95EE;&#x7EDF;&#x8BA1;&#x3001;&#x5728;&#x7EBF;&#x5BA2;&#x670D;&#x3001;&#x7F51;&#x7AD9;&#x5B89;&#x5168;&#x68C0;&#x67E5;&#x3001;&#x6574;&#x7AD9;&#x5907;&#x4EFD;&#x6062;&#x590D;;&#x6587;&#x7AE0;&#x3001;&#x4EA7;&#x54C1;&#x3001;&#x8868;&#x5355;&#x3001;&#x591A;&#x8BED;&#x8A00;&mldr;&#x4E3A;&#x4F01;&#x4E1A;&#x800C;&#x8BBE;&#x8BA1;&#x7684;60&#x591A;&#x9879;&#x529F;&#x80FD;&#x3002;&#x5185;&#x5BB9;&#x53D1;&#x5E03;&#x548C;&#x7EF4;&#x62A4;&#x8FD0;&#x8425;&#x66F4;&#x52A0;&#x5F97;&#x5FC3;&#x5E94;&#x624B;&#x3002;
+                    p
+                        strong(style='float:right;') &#x529F;&#x80FD;&#x6EE1;&#x8DB3;&#x6240;&#x9700;
+            .blooga
+                h2 &#x6211;&#x4EEC;&#x7684;&#x8054;&#x7CFB;&#x65B9;&#x5F0F;
+                p
+                    span
+                        strong &#x5730;&#x5740;:
+                    | &#x534E;&#x4E1C;&#x4EA4;&#x901A;&#x5927;&#x5B66;&#x5317;&#x533A;
+                    br
+                    span
+                        strong &#x7535;&#x8BDD;:
+                    |  +086-1234-5678
+                    br
+                    span
+                        strong QQ:
+                    |  123456789
+                    br
+                    span
+                        strong E-mail:
+                    |  mail@666.com
+        .clr
+.footer
+    .footer_resize
+        a(href='index.html')
+            img(src='images/footer_logo.gif', alt='picture', width='184', height='102', border='0')
+        p.leftt
+        p.rightt
+            | Design by
+            a(href='index.html') &#x9ECE;&#x548F;&#x6587;
+        .clr
+    .clr
