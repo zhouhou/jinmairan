@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#content{
+    height:420px;
+    background:#fff;
+}
+#content h1 a{
+    text-decoration:none;
+    color:#000;
+}
+
+
+#content img{
+    margin-top:20px;
+}
+
+.product{
+    width:100%;
+    height:200px;
+
+}
+
+.jianjie{
+    width:100%;
+    height:200px;
+
+    background:url(../imgs/jianjie.jpg) no-repeat;
+}
+
+.linian{
+    width:350px;
+    height:200px;
+    float:left;
+    background:url(../imgs/linian.jpg) no-repeat;
+}
+
+
+#demoLeft {
+    float:left;
+
+    overflow:hidden;
+
+    width: 98%;
+    height:150px;
+
+}
+
+#demoTop {
+    float:left;
+    margin:50px auto;
+    background: #FFF;
+    overflow:hidden;
+    border: 0px dashed #CCC;
+    height: 500px;
+    width: 98%;
+    border:5px solid #ccc;
+}
+
+
+#demoLeft .indemo {
+    float: left;
+    width: 500%;
+}
+
+#demoTop .indemo {
+    float: left;
+    width: 100%;
+}
+
+#demo1,#demo3 {
+    float: left;
+
+}
+#demo2,#demo4 {
+    float: left;
+
+}
+
+#demo1 img,#demo2 img,#demo3 img,#demo4 img{
+    width:128px;
+    height:128px;
+    border:1px solid #CCCCCC;
+}
+
+
+
