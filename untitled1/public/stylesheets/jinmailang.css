@@ -232,6 +232,7 @@ span:hover{
     right: 120px;
     top: 100px;
     margin: 100px auto 10px;
+    z-index: 10000;
 }
 ul.ybl{
     list-style: none;
