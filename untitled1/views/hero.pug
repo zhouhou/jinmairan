@@ -1,0 +1,111 @@
+doctype transitional
+head
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    title 300&#x82F1;&#x96C4;&#x6CE8;&#x518C;&#x9875;&#x9762;
+    link(href='../stylesheets/hero.css', rel='stylesheet', rev='stylesheet', type='text/css', media='all')
+    link(href='../stylesheets/hero2.css', rel='stylesheet', rev='stylesheet', type='text/css', media='all')
+    script(type='text/javascript', src='http://www.5imoban.net/download/jquery/jquery-1.4.2.min.js')
+    script(type='text/javascript', src='http://www.5imoban.net/view/jquery/201505/SuperSlide2.1/jquery.SuperSlide.2.1.1.js')
+    script(type='text/javascript', src='http://www.5imoban.net/view/validform/demo/js/Validform_v5.3.2_min.js')
+    script.
+        $(function() {
+            $(".i-text").focus(function() {
+                $(this).addClass('h-light');
+            });
+            $(".i-text").focusout(function() {
+                $(this).removeClass('h-light');
+            });
+            $("#username").focus(function() {
+                var username = $(this).val();
+                if(username == '输入账号') {
+                    $(this).val('');
+                }
+            });
+            $("#username").focusout(function() {
+                var username = $(this).val();
+                if(username == '') {
+                    $(this).val('输入账号');
+                }
+            });
+            $("#password").focus(function() {
+                var username = $(this).val();
+                if(username == '输入密码') {
+                    $(this).val('');
+                }
+            });
+            $("#yzm").focus(function() {
+                var username = $(this).val();
+                if(username == '输入验证码') {
+                    $(this).val('');
+                }
+            });
+            $("#yzm").focusout(function() {
+                var username = $(this).val();
+                if(username == '') {
+                    $(this).val('输入验证码');
+                }
+            });
+            $(".registerform").Validform({
+                tiptype: function(msg, o, cssctl) {
+                    var objtip = $(".error-box");
+                    cssctl(objtip, o.type);
+                    objtip.text(msg);
+                },
+                ajaxPost: true
+            });
+        });
+.header
+    h1.headerLogo
+        a(title='后台管理系统', target='_blank', href='#')
+            img(alt='logo', src='images/4YLKCWH%7DFIHN_WO45MZZ5WG.png', style='height: 84px;')
+    .headerNav
+        a(target='_blank', href='#') 300&#x5B98;&#x7F51;
+        a(target='_blank', href='#') &#x5173;&#x4E8E;300
+        a(target='_blank', href='#') &#x5F00;&#x53D1;&#x56E2;&#x961F;
+        a(target='_blank', href='#') &#x610F;&#x89C1;&#x53CD;&#x9988;
+        a(target='_blank', href='#') &#x5E2E;&#x52A9;
+.banner
+    .login-aside
+        #o-box-up
+        #o-box-down(style='table-layout:fixed;')
+            .error-box
+            form.registerform(action='demo/ajax_post.jsp')
+                .fm-item
+                    label.form-label(for='logonId') &#x8D26;&#x53F7;&#x540D;&#xFF1A;
+                    input#username.i-text(type='text', value='输入账号', maxlength='100', ajaxurl='demo/valid.jsp', datatype='s6-18', errormsg='用户名至少6个字符,最多18个字符！')
+                    .ui-form-explain
+                .fm-item
+                    label.form-label(for='logonId') &#x767B;&#x9646;&#x5BC6;&#x7801;&#xFF1A;
+                    input#password.i-text(type='password', value='', maxlength='100', datatype='*6-16', nullmsg='请设置密码！', errormsg='密码范围在6~16位之间！')
+                    .ui-form-explain
+                .fm-item.pos-r
+                    label.form-label(for='logonId') &#x9A8C;&#x8BC1;&#x7801;
+                    input#yzm.i-text.yzm(type='text', value='输入验证码', maxlength='100', nullmsg='请输入验证码！')
+                    .ui-form-explain
+                        img.yzm-img(src='images/yzm.jpg')
+                .fm-item
+                    label.form-label(for='logonId')
+                    input#send-btn.btn-login(type='submit', value='', tabindex='4')
+                    .ui-form-explain
+    .bd
+        ul
+            li
+                a(target='_blank', href='#')
+                img(src='images/26203950128.jpg', style='height:100%;margin:0 auto;')
+            li
+                a(target='_blank', href='#')
+                img(src='images/6195653267.jpg', style='height:100%;margin:0 auto;')
+    .hd
+        ul
+script(type='text/javascript').
+    jQuery(".banner").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "fold",
+        autoPlay: true,
+        autoPage: true,
+        trigger: "click"
+    });
+.banner-shadow
+.footer
+    p XXXX &#x7248;&#x6743;&#x6240;&#x6709; Copyright 2012-2013 HUARUAN Corporation, All Rights Reserved
