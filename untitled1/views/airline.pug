@@ -1,0 +1,320 @@
+doctype html
+head
+    title &#x84DD;&#x8272;&#x822A;&#x7A7A;&#x516C;&#x53F8;&#x7F51;&#x7AD9;html5&#x6A21;&#x677F; - &#x6211;&#x7231;&#x6A21;&#x677F;&#x7F51; www.5imoban.net
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='stylesheets/reset.css', type='text/css', media='all')
+    link(rel='stylesheet', href='stylesheets/layout.css', type='text/css', media='all')
+    link(rel='stylesheet', href='stylesheets/styleair.css', type='text/css', media='all')
+    script(type='text/javascript', src='js/jquery-1.5.2.js')
+    script(type='text/javascript', src='js/cufon-yui.js')
+    script(type='text/javascript', src='js/cufon-replace.js')
+    script(type='text/javascript', src='js/Cabin_400.font.js')
+    script(type='text/javascript', src='js/tabs.js')
+    script(type='text/javascript', src='js/jquery.jqtransform.js')
+    script(type='text/javascript', src='js/jquery.nivo.slider.pack.js')
+    script(type='text/javascript', src='js/atooltip.jquery.js')
+    script(type='text/javascript', src='js/script.js')
+    //if lt IE 9
+      script(type='text/javascript', src='js/html5.js')
+      style(type='text/css').
+        .main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url(js/PIE.htc)}
+    //if lt IE 7
+      div(style=' clear: both; text-align:center; position: relative;')
+        a(href='http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode')
+          img(src='http://www.theie6countdown.com/images/upgrade.jpg', border='0', alt='')
+.main
+    // header
+    header
+        .wrapper
+            h1
+                a#logo(href='index.html') Air lines
+            span#slogan Fast, Frequent &amp; Safe Flights
+            nav#top_nav
+                ul
+                    li
+                        a.nav1(href='index.html') Home
+                    li
+                        a.nav2(href='#') Sitemap
+                    li
+                        a.nav3(href='Contacts.html') Contact
+        nav
+            ul#menu
+                li#menu_active
+                    a(href='index.html')
+                        span
+                            span About
+                li
+                    a(href='Offers.html')
+                        span
+                            span Offers
+                li
+                    a(href='Book.html')
+                        span
+                            span Book
+                li
+                    a(href='Services.html')
+                        span
+                            span Services
+                li
+                    a(href='Safety.html')
+                        span
+                            span Safety
+                li.end
+                    a(href='Contacts.html')
+                        span
+                            span Contacts
+    .ic More Website Templates
+    // / header
+    // content
+    section#content
+        .for_banners
+            article.col1
+                .tabs
+                    ul.nav
+                        li.selected
+                            a(href='#Flight') Flight
+                        li
+                            a(href='#Hotel') Hotel
+                        li.end
+                            a(href='#Rental') Rental
+                    .content
+                        #Flight.tab-content
+                            form#form_1(method='post')
+                                div
+                                    .radio
+                                        .wrapper
+                                            input(type='radio', name='name1', checked='')
+                                            span.left Standard
+                                            input(type='radio', name='name1')
+                                            span.left World Map
+                                    .row
+                                        span.left From
+                                        input.input(type='text')
+                                    .row
+                                        span.left To
+                                        input.input(type='text')
+                                    .wrapper
+                                        .col1
+                                            .row
+                                                span.left Outbound
+                                                input.input1(type='text', value='03.05.2011', onblur="if(this.value=='') this.value='03.05.2011'", onfocus="if(this.value =='03.05.2011' ) this.value=''")
+                                            .row
+                                                span.left Return
+                                                input.input1(type='text', value='10.05.2011', onblur="if(this.value=='') this.value='10.05.2011'", onfocus="if(this.value =='10.05.2011' ) this.value=''")
+                                        input.input1.marg_top1(type='text', value='+/- 0 Days', onblur="if(this.value=='') this.value='+/- 0 Days'", onfocus="if(this.value =='+/- 0 Days' ) this.value=''")
+                                    .row
+                                        span.left Adults
+                                        input.input2(type='text', value='2', onblur="if(this.value=='') this.value='2'", onfocus="if(this.value =='2' ) this.value=''")
+                                    .row
+                                        span.left Children
+                                        input.input2(type='text', value='0', onblur="if(this.value=='') this.value='0'", onfocus="if(this.value =='0' ) this.value=''")
+                                        span.pad_left1 (0-11 years)
+                                    .wrapper
+                                        span.right.relative
+                                            a.button1(href='#', onclick="document.getElementById('form_1').submit()")
+                                                strong Search
+                                        a.link1(href='#') More Options
+                        #Hotel.tab-content
+                            form#form_2(method='post')
+                                div
+                                    .radio
+                                        .wrapper
+                                            input(type='checkbox', checked='')
+                                            | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Our Partners
+                                    .row
+                                        span.left Location
+                                        input.input(type='text')
+                                    .row
+                                        span.left Check-in
+                                        input.input1(type='text', value='03.05.2011', onblur="if(this.value=='') this.value='03.05.2011'", onfocus="if(this.value =='03.05.2011' ) this.value=''")
+                                        a.help(href='#')
+                                    .row
+                                        span.left Check-out
+                                        input.input1(type='text', value='10.05.2011', onblur="if(this.value=='') this.value='10.05.2011'", onfocus="if(this.value =='10.05.2011' ) this.value=''")
+                                        a.help(href='#')
+                                    .row
+                                        span.left Rooms
+                                        input.input2(type='text', value='1', onblur="if(this.value=='') this.value='1'", onfocus="if(this.value =='1' ) this.value=''")
+                                        a.help(href='#')
+                                    .row
+                                        span.left Adults
+                                        input.input2(type='text', value='2', onblur="if(this.value=='') this.value='2'", onfocus="if(this.value =='2' ) this.value=''")
+                                    .row
+                                        span.left Children
+                                        input.input2(type='text', value='0', onblur="if(this.value=='') this.value='0'", onfocus="if(this.value =='0' ) this.value=''")
+                                        span.pad_left1 (0-11 years)
+                                    .wrapper
+                                        span.right.relative
+                                            a.button1(href='#', onclick="document.getElementById('form_2').submit()")
+                                                strong Search
+                                        a.link1(href='#') More Options
+                        #Rental.tab-content
+                            form#form_3(method='post')
+                                div
+                                    .radio
+                                        .wrapper
+                                            input(type='radio', name='name2', checked='')
+                                            span.left Avis
+                                            input(type='radio', name='name2')
+                                            span.left Europcar
+                                    .row
+                                        span.left Rental location
+                                        input.input(type='text')
+                                    .row
+                                        span.left Pick-up
+                                        input.input1(type='text', value='03.05.2011', onblur="if(this.value=='') this.value='03.05.2011'", onfocus="if(this.value =='03.05.2011' ) this.value=''")
+                                        input.input2(type='text', value='12:00', onblur="if(this.value=='') this.value='12:00'", onfocus="if(this.value =='12:00' ) this.value=''")
+                                    .row
+                                        span.left Return
+                                        input.input1(type='text', value='10.05.2011', onblur="if(this.value=='') this.value='10.05.2011'", onfocus="if(this.value =='10.05.2011' ) this.value=''")
+                                        input.input2(type='text', value='12:00', onblur="if(this.value=='') this.value='12:00'", onfocus="if(this.value =='12:00' ) this.value=''")
+                                    .row_select
+                                        span.left Miles &amp; More
+                                        select
+                                            option no membership
+                                    .row_select
+                                        .pad_left1
+                                            | Country of residence
+                                            br
+                                            .select1
+                                                select
+                                                    option &nbsp;
+                                    .wrapper
+                                        span.right.relative
+                                            a.button1(href='#', onclick="document.getElementById('form_3').submit()")
+                                                strong Search
+            #slider
+                img(src='images/banner1.jpg', alt='')
+                img(src='images/banner2.jpg', alt='')
+                img(src='images/banner3.jpg', alt='')
+        .wrapper.pad1
+            article.col1
+                .box1
+                    h2.top Offers of the Week from UK
+                    .pad
+                        strong From Birmingham
+                        br
+                        ul.pad_bot1.list1
+                            li
+                                span.right.color1 from GBP 143.-
+                                a(href='Book2.html') Zurich
+                        strong From London City
+                        br
+                        ul.pad_bot1.list1
+                            li
+                                span.right.color1 from GBP 176.-
+                                a(href='Book2.html') Basel
+                            li
+                                span.right.color1 from GBP 109.-
+                                a(href='Book2.html') Geneva
+                        strong From London Heathrow
+                        br
+                        ul.pad_bot2.list1
+                            li
+                                span.right.color1 from GBP 100.-
+                                a(href='Book2.html') Geneva
+                            li
+                                span.right.color1 from GBP 112.-
+                                a(href='Book2.html') Zurich
+                            li
+                                span.right.color1 from GBP 88.-
+                                a(href='Book2.html') Basel
+                    h2 From Ireland To Switzerland
+                    .pad
+                        strong From Dublin
+                        br
+                        ul.pad_bot2.list1
+                            li.pad_bot1
+                                span.right.color1 from EUR 122.-
+                                a(href='Book2.html') Zurich
+            article.col2
+                h3
+                    | About Our Airlines
+                    span Template created  team
+                .wrapper
+                    article.cols
+                        figure
+                            img.pad_bot2(src='images/page1_img1.jpg', alt='')
+                        p.pad_bot1
+                            strong Airlines is one of free website templates created  team.
+                        p
+                            | This website template is optimized for 1024X768 screen resolution. It is also XHTML &amp; CSS valid. This website template has several pages:
+                            a(href='index.html') About
+                            | ,
+                            a(href='Offers.html') Offers
+                            | ,
+                            a(href='Book.html') Book
+                            | ,
+                            a(href='Services.html') Services
+                            | ,
+                            a(href='Safety.html') Safety
+                            | ,
+                            a(href='Contacts.html') Contacts
+                            | .
+                    article.cols.pad_left1
+                        figure
+                            img.pad_bot2(src='images/page1_img2.jpg', alt='')
+                        p.pad_bot1
+                            strong This Airlines Template goes with two packages.
+                        p
+                            | With PSD source files and without them. PSD source files are available for free for the registered members of Templates.com. The basic package (without PSD source files) is available for anyone without registration).
+                a.button1(href='#')
+                    strong Read More
+    // content end
+    // footer
+    footer
+        .wrapper
+            ul#icons
+                li
+                    a.normaltip(href='#', title='Facebook')
+                        img(src='images/icon1.jpg', alt='')
+                li
+                    a.normaltip(href='#', title='Delicious')
+                        img(src='images/icon2.jpg', alt='')
+                li
+                    a.normaltip(href='#', title='Stumble Upon')
+                        img(src='images/icon3.jpg', alt='')
+                li
+                    a.normaltip(href='#', title='Twitter')
+                        img(src='images/icon4.jpg', alt='')
+                li
+                    a.normaltip(href='#', title='Linkedin')
+                        img(src='images/icon5.jpg', alt='')
+                li
+                    a.normaltip(href='#', title='Reddit')
+                        img(src='images/icon6.jpg', alt='')
+            .links
+                a(target='_blank', href='http://www.5imoban.net') &#x6211;&#x7231;&#x6A21;&#x677F;&#x7F51;
+    // footer end
+script(type='text/javascript').
+    Cufon.now();
+script.
+    $(document).ready(function() {
+        tabs.init();
+    });
+    jQuery(document).ready(function($) {
+        $('#form_1, #form_2, #form_3').jqTransform({imgPath:'jqtransformplugin/img/'});
+    });
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+            effect:'fade', //Specify sets like: 'fold,fade,sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft'
+            slices:15,
+            animSpeed:500,
+            pauseTime:6000,
+            startSlide:0, //Set starting Slide (0 index)
+            directionNav:false, //Next & Prev
+            directionNavHide:false, //Only show on hover
+            controlNav:false, //1,2,3...
+            controlNavThumbs:false, //Use thumbnails for Control Nav
+            controlNavThumbsFromRel:false, //Use image rel for thumbs
+            controlNavThumbsSearch: '.jpg', //Replace this with...
+            controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+            keyboardNav:true, //Use left & right arrows
+            pauseOnHover:true, //Stop animation while hovering
+            manualAdvance:false, //Force manual transitions
+            captionOpacity:1, //Universal caption opacity
+            beforeChange: function(){},
+            afterChange: function(){},
+            slideshowEnd: function(){} //Triggers after all slides have been shown
+        });
+    });
