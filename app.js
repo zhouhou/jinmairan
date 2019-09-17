@@ -17,6 +17,7 @@ var airlineRouter = require('./routes/airline');
 var yingshiRouter = require('./routes/yingshi');
 var yingshi2Router = require('./routes/yingshi2');
 var index1Router = require('./routes/index1');
+var airline2Router = require('./routes/airline2');
 
 var app = express();
 
@@ -43,6 +44,7 @@ app.use('/airline',airlineRouter);
 app.use('/yingshi',yingshiRouter);
 app.use('/yingshi2',yingshi2Router);
 app.use('/index1',index1Router);
+app.use('/airline2',airline2Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

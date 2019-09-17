@@ -1,0 +1,175 @@
+doctype html
+head
+    title
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='stylesheets/airline2_1.css', type='text/css', media='all')
+    link(rel='stylesheet', href='stylesheets/airline2_2.css', type='text/css', media='all')
+    link(rel='stylesheet', href='stylesheets/airline2_3.css', type='text/css', media='all')
+    script(type='text/javascript', src='js/jquery-1.4.2.js')
+    script(type='text/javascript', src='js/cufon-yui1.js')
+    script(type='text/javascript', src='js/cufon-replace1.js')
+    script(type='text/javascript', src='js/Myriad_Pro_italic_600.font.js')
+    script(type='text/javascript', src='js/Myriad_Pro_italic_400.font.js')
+    script(type='text/javascript', src='js/Myriad_Pro_400.font.js')
+    //if lt IE 9
+      script(type='text/javascript', src='http://info.template-help.com/files/ie6_warning/ie6_script_other.js')
+      script(type='text/javascript', src='js/html5.js')
+.body1
+    .main
+        // header
+        header
+            .wrapper
+                h1
+                    a#logo(href='index.html') Air Lines
+                    span#slogan International Travel
+                .right
+                    nav
+                        ul#top_nav
+                            li
+                                a(href='index.html')
+                                    img(src='images/img1.gif', alt='')
+                            li
+                                a(href='index-4.html')
+                                    img(src='images/img2.gif', alt='')
+                            li.bg_none
+                                a(href='#')
+                                    img(src='images/img3.gif', alt='')
+                    nav
+                        ul#menu
+                            li#menu_active
+                                a(href='index.html') Home
+                            li
+                                a(href='index-1.html') Our Aircraft
+                            li
+                                a(href='index-2.html') Safety
+                            li
+                                a(href='index-3.html') Charters
+                            li
+                                a(href='index-4.html') Contacts
+.ic
+    | More Website Templates @
+    a(href='http://www.cssmoban.com/') &#x7F51;&#x9875;&#x6A21;&#x677F;
+    | !
+.main
+    #banner
+        .text1
+            | COMFORT
+            span Guaranteed
+            p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        a.button_top(href='#') Order Tickets Online
+// / header
+.main
+    // content
+    section#content
+        article.col1
+            .pad_1
+                h2 Your Flight Planner
+                form#form_1(action='', method='post')
+                    .wrapper.pad_bot1
+                        .radio.marg_right1
+                            input(type='radio', name='name1')
+                            | Round Trip
+                            br
+                            input(type='radio', name='name1')
+                            | One Way
+                        .radio
+                            input(type='radio', name='name1')
+                            | Empty-Leg
+                            br
+                            input(type='radio', name='name1')
+                            | Multi-Leg
+                    .wrapper
+                        | Leaving From:
+                        .bg
+                            input.input.input1(type='text', value='Enter City or Airport Code', onblur="if(this.value=='') this.value='Enter City or Airport Code'", onfocus="if(this.value =='Enter City or Airport Code' ) this.value=''")
+                    .wrapper
+                        | Going To:
+                        .bg
+                            input.input.input1(type='text', value='Enter City or Airport Code', onblur="if(this.value=='') this.value='Enter City or Airport Code'", onfocus="if(this.value =='Enter City or Airport Code' ) this.value=''")
+                    .wrapper
+                        | Departure Date and Time:
+                        .wrapper
+                            .bg.left
+                                input.input.input2(type='text', value='mm/dd/yyyy ', onblur="if(this.value=='') this.value='mm/dd/yyyy '", onfocus="if(this.value =='mm/dd/yyyy ' ) this.value=''")
+                            .bg.right
+                                input.input.input2(type='text', value='12:00am', onblur="if(this.value=='') this.value='12:00am'", onfocus="if(this.value =='12:00am' ) this.value=''")
+                    .wrapper
+                        | Return Date and Time:
+                        .wrapper
+                            .bg.left
+                                input.input.input2(type='text', value='mm/dd/yyyy ', onblur="if(this.value=='') this.value='mm/dd/yyyy '", onfocus="if(this.value =='mm/dd/yyyy ' ) this.value=''")
+                            .bg.right
+                                input.input.input2(type='text', value='12:00am', onblur="if(this.value=='') this.value='12:00am'", onfocus="if(this.value =='12:00am' ) this.value=''")
+                    .wrapper
+                        p Passenger(s):
+                        .bg.left
+                            input.input.input2(type='text', value='# passengers', onblur="if(this.value=='') this.value='# passengers'", onfocus="if(this.value =='# passengers' ) this.value=''")
+                        a.button2(href='#', onclick="document.getElementById('form_1').submit()") go!
+                h2 Recent News
+                p.under
+                    a.link1(href='#') Nemo enim ipsam voluptatem quia
+                    br
+                    | November 5, 2010
+                p.under
+                    a.link1(href='#') Voluptas aspernatur autoditaut fjugit
+                    br
+                    | November 1, 2010
+                p
+                    a.link1(href='#') Sed quia consequuntur magni
+                    br
+                    | October 23, 2010
+        .copyrights
+            | Collect from
+            a(href='http://www.cssmoban.com/') Website Template
+        article.col2.pad_left1
+            h2 Welcome to our Website!
+            p.color1
+                | Air Lines is a free web template created by TemplateMonster.com team. This website template is optimized for 1024X768 screen resolution.
+            .marker
+                .wrapper
+                    p.pad_bot2
+                        strong Aircraft
+                    p.pad_bot2
+                        | Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+            .wrapper.pad_bot2
+                a.button1(href='#') Read More
+            .marker
+                .wrapper
+                    p.pad_bot2
+                        strong Charters
+                    p.pad_bot2
+                        | Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            .wrapper.pad_bot2
+                a.button1(href='#') Reservation
+                a.button2(href='#') Fleet
+            .wrapper
+                article.cols
+                    h2 Our Clients
+                    p
+                        strong Avero eoset
+                        |  accusamus et iusto odio dig- nissimos ducimus qui blanditiis praesentium voluptatum deleniti.
+                    p
+                        | Atque corrupti quos dolores et quas moles- tias excepturi sint
+                        a(href='#') occaecati cupiditate
+                        |  non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                .box1
+                    .pad_1
+                        .wrapper
+                            p.pad_bot2
+                                | Lorem ipsum dolor sit amet, consectetur adip- isicing elit, sed do eius- mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            p
+                                span.right Mr. Thomas Lloyd
+                                br
+    // / content
+.body2
+    .main
+        // footer
+        footer
+            a(href='http://www.cssmoban.com/', target='_blank') Free HTML5 Templates
+            |  More Templates
+            a(href='http://www.cssmoban.com/', target='_blank', title='模板之家') &#x6A21;&#x677F;&#x4E4B;&#x5BB6;
+            br
+        // / footer
+script(type='text/javascript').
+    Cufon.now();
