@@ -1,0 +1,171 @@
+ul{
+    list-style: none;
+    display:inline-block;
+}
+a, img {
+    border: 0;
+    font-family: "微软雅黑";
+}
+li{
+    display:inline-block;
+}
+.nav {
+    margin: 0px auto;
+    width: 1000px;
+    height: 100px;
+    position: relative;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "微软雅黑";
+}
+.nav ul {
+    position: absolute;
+}
+.nav li {
+    padding: 10px 40px;
+    float: left;
+    color: #777777;
+}
+.nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #777777;
+}
+.banners{
+    width:100%;
+    height: 480px;
+    overflow: hidden;
+}
+@keyframes lb{
+    0%{ margin-left: 0;}
+    25%{margin-left: -1920px;}
+    75%{margin-left: -3840px;}
+    100%{margin-left: -5760px;}
+}
+.banners .imgblock{
+    width:7680px;
+    height: 480px;
+    animation: lb 8s infinite
+}
+.banners .imgblock img{
+    float:left;
+    width:1920px;
+}
+.tait {
+    background: #e1e1e1;
+    width: 100%;
+    height: 40px;
+    margin-top: -20px;
+    position: relative;
+}
+.tait .xiax {
+    background: #FFF;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 38px;
+}
+.tait ul {
+    margin: 0px auto;
+    width: 1000px;
+}
+.tait ul li {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #5378a2;
+    line-height: 34px;
+    font-weight: bold;
+}
+.tait .tait_1 {
+    position: absolute;
+    left: 20%;
+    top:0;
+}
+.tait .tait_2 {
+    position: absolute;
+    left: 55%;
+    top:0;
+}
+.ban {
+    width: 100%;
+    height: 250px;
+    background: #efefef;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: "微软雅黑";
+}
+.jump_js {
+    margin: 0px auto;
+    width: 1000px;
+    position: relative;
+}
+.jump_js .js_1 {
+    width: 380px;
+    height: 250px;
+    margin-left: 10px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.jump_js .xux {
+    position: absolute;
+    top: 0;
+    left: 440px;
+    border-right: 1px dashed #CCCCCC;
+    height: 250px;
+    width: 1px;
+}
+.jump_js .js_2 {
+    width: 580px;
+    height: 250px;
+    position: absolute;
+    top: 10px;
+    left: 460px;
+}
+.jump_js .js_22 ul li a {
+    text-decoration: none;
+    color: #666666;
+    line-height: 30px;
+}
+.footer {
+    background: #FFF;
+    width: 100%;
+    height: 100px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.other_logo {
+    float: left;
+    width: 124px;
+    height: 63px;
+    margin: 25px 0 0 85px;
+}
+.footer .logo {
+    float: left;
+    width: 135px;
+    height: 102px;
+    background: url(../img/logo.png) no-repeat;
+    margin-left: 30px;
+}
+.footer .logo {
+    float: left;
+    width: 135px;
+    height: 102px;
+    background: url(../img/logo.png) no-repeat;
+    margin-left: 30px;
+}
+.footer .text {
+    color: #666;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 400px;
+    padding-top: 20px;
+}
+.footer .text a {
+    color: #666;
+}
