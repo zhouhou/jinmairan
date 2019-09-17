@@ -11,9 +11,9 @@ var websiteRouter = require('./routes/website');
 var website2Router = require('./routes/website2');
 var heroRouter = require('./routes/hero');
 var sanxingRouter = require('./routes/sanxing');
-var sanxing2Router = require('./routes/sanxing2');
 var airlineRouter = require('./routes/airline');
 var yingshiRouter = require('./routes/yingshi');
+var index1Router = require('./routes/index1');
 
 var app = express();
 
@@ -34,9 +34,9 @@ app.use('/website',websiteRouter);
 app.use('/website2',website2Router);
 app.use('/hero',heroRouter);
 app.use('/sanxing',sanxingRouter);
-app.use('/sanxing2',sanxing2Router);
 app.use('/airline',airlineRouter);
 app.use('/yingshi',yingshiRouter);
+app.use('/index1',index1Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
